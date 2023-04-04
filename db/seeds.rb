@@ -24,11 +24,5 @@ Article.create(
     url: "https://www.allsaints.com/dw/image/v2/BHHD_PRD/on/demandware.static/-/Sites-allsaints-us-master-catalog/default/dwe970423e/images/large/WO098X/750/WO098X-750-2.jpg?sw=3000&sh=3000&sm=fit&q=70",
     price: 399
     )
-Shoe.create(
-    name:  "AirForce 1",
-    outfit_id: 1,
-    url: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f094af40-f82f-4fb9-a246-e031bf6fc411/air-force-1-07-womens-shoes-b19lqD.png",
-    price: 110
-)
 
 puts "✅ Done seeding!"
