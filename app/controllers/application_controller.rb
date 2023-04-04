@@ -19,9 +19,9 @@ class ApplicationController < Sinatra::Base
     outfit.to_json
   end
 
-  post "/closet" do
+  post "/closet/:id" do
     outfit = Outfit.create(
-      
+
     )
   end
 
