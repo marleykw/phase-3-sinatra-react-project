@@ -11,6 +11,17 @@ Outfit.create(
     last_worn: "04-06-2023"
 )
 
+
+Outfit.create(
+    name: "Pink Summer Set",
+    last_worn: "04-06-2023"
+)
+
+Outfit.create(
+    name: "Printed Beaded Dress",
+    last_worn: "04-06-2023"
+)
+
 Article.create(
     name: "lululemon Ribbed Leggings",
     outfit_id: 1,
@@ -40,6 +51,32 @@ Article.create(
     outfit_id: 2,
     url: "https://www.lulus.com/images/product/xlarge/9180841_1870376.jpg?w=560",
     price: 19
+)
+
+Article.create(
+    name:  "Poplin Sash Blouse",
+    outfit_id: 3,
+    url: "https://static.zara.net/photos///2023/V/0/1/p/3336/255/620/2/w/251/3336255620_6_1_1.jpg?ts=1682428429409",
+    price: 45.90
+)
+
+Article.create(
+    name:  "Wide-Leg Pink Pants",
+    outfit_id: 3,
+    url: "https://static.zara.net/photos///2023/V/0/1/p/6147/036/633/2/w/251/6147036633_6_1_1.jpg?ts=1682509517562",
+    price: 59.90
+)
+
+Article.create(
+    name:  "Printed Beaded Dress",
+    outfit_id: 4,
+    url: "https://static.zara.net/photos///2023/V/0/1/p/6895/062/330/2/w/750/6895062330_6_1_1.jpg?ts=1682672694038",
+    price: 89.90
+)
+
+Comment.create(
+    comment: "This outfit is soooo comfy!",
+    outfit_id: 1
 )
 
 puts "✅ Done seeding!"
