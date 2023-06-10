@@ -17,7 +17,7 @@ class ApplicationController < Sinatra::Base
 
   patch "/articles/:id" do
     item = Article.find(params[:id])
-    item.update(last_worn: params[:last_worn])
+    item.update(last_worn: params[:last_worn], price: params[:price])
     item.to_json
   end
 
